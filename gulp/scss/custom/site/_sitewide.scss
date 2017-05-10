@@ -1,20 +1,38 @@
 /**
-  STYLES THAT AFFECT THE ENTIRE SITE GO HERE
+	STYLES THAT AFFECT THE ENTIRE SITE GO HERE
 
-  1. LOGO
+	1. HEADER
+	2. WHO
 
+*/
 
- */
+body				{ background-color: #fff; margin-top: 74px; }
 
+svg	 				{ max-width: 100%; }
 
-body { background-color: #fff; }
+.wrapper 			{ padding: 100px 0; }
 
 /**
-  1. LOGO
+	1. HEADER
 */
-@import url('https://fonts.googleapis.com/css?family=Poppins:700');
+#header				{ background-color: $almost-black; padding: 14px; position: fixed; top: 0; width: 100%;
+	#head-logo		{ display: inline-block; vertical-align: middle; width: 150px;
 
-svg {
-    max-width: 100%;
+	}
+
+	#main-nav		{ display: inline-block; vertical-align: middle; margin: 0; margin-left: 50px; padding: 0;
+		li			{ display: inline-block;
+			a 		{ color: #FFF; font-weight: bold; margin: 0 8px; padding: 5px;
+				&:hover { border-bottom: 2px solid #FFF; }
+			}
+		}
+	}
+}
+
+
+/**
+	2. WHO
+*/
+#who				{ padding: 20px 0;
 
 }

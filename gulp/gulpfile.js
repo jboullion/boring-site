@@ -31,7 +31,7 @@ var SCSS_WATCH_PATH = SRC_PATH+'scss/**/*.scss';
 var IMAGES_PATH = SRC_PATH+'images/**/*.{jpg,png,jpeg,svg,gif}';
 
 var THEME_PATH = '../';
-var LOCAL_PATH = 'html5-boilerplate';
+var LOCAL_PATH = 'boring';
 
 /**
  * SCSS/SASS task
